@@ -11,6 +11,10 @@ searchButton.addEventListener("click", function(event){
     console.log (city)
     getWeatherData (city)
     getFiveDaysData (city)
+    var previousList = JSON.parse(localStorage.getItem("weathersearch")) || []
+    previousList.push(city)
+    localStorage.setItem ("weathersearch", JSON.stringify(previousList))
+    cityListDisplay()
 })
 function getWeatherData(city) {
     var currentWeatherAPI =`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIkey}&units=imperial`;
@@ -50,3 +54,14 @@ function getWeatherData(city) {
 }
 
 console.log("Js response")
+ function cityListDisplay(){
+    var previousList = JSON.parse(localStorage.getItem("weathersearch")) || []
+    var htmlElements = ""
+    for(let i=0; i < previousList.length; i=i+1){
+        htmlElements += `<li><button class="weathersearch">${previousList[i]}</button>`
+    }
+   document.getElementById("cityList").innerHTML = htmlElements
+
+ }
+
+ cityListDisplay()
