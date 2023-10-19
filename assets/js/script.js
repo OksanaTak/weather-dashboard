@@ -18,6 +18,7 @@ searchButton.addEventListener('click', function (event) {
   localStorage.setItem('weathersearch', JSON.stringify(previousList))
   cityListDisplay()
 })
+
 function getWeatherData (city) {
   var currentWeatherAPI = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIkey}&units=imperial`
   fetch(currentWeatherAPI)

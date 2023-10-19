@@ -1,0 +1,32 @@
+body {background-color: #54c18d;}
+.card-title {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+card-title {
+font-size: large;
+align-self: auto;
+}
+.card-img-top {
+    background-color: #11c6e2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.card-body {
+    background-color: #f9e74a;
+}
+
+.btn {
+    background-color: #086ef3; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
