@@ -22,4 +22,6 @@ THEN I am again presented with current and future conditions for that city
 ##Link
 [URL of GitHub repository](https://github.com/OksanaTak/weather-dashboard)
 
+[The URL of the deployed application](file:///Users/oksanatatsyak/bootcamp/challenges/weather-dashboard/index.html)
+
 
