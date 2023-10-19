@@ -1,11 +1,10 @@
 # weather-dashboard
-You will use localStorage to store any persistent data. For more information on how to work with the OpenWeather API, refer to the Full-Stack Blog on how to use API keysLinks to an external site..
 
-User Story
-AS A traveler
+## User Story 
+ AS A traveler
 I WANT to see the weather outlook for multiple cities
 SO THAT I can plan a trip accordingly
-Acceptance Criteria
+## Acceptance Criteria
 GIVEN a weather dashboard with form inputs
 WHEN I search for a city
 THEN I am presented with current and future conditions for that city and that city is added to the search history
@@ -20,7 +19,7 @@ THEN I am again presented with current and future conditions for that city
 [MIT License](https://opensource.org/licenses/MIT).
 
 
-Link
-[URL of GitHub repository] ()
+##Link
+[URL of GitHub repository](https://github.com/OksanaTak/weather-dashboard)
 
 
