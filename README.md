@@ -21,7 +21,8 @@ THEN I am again presented with current and future conditions for that city
 
 ##Link
 [URL of GitHub repository](https://github.com/OksanaTak/weather-dashboard)
-
-[The URL of the deployed application](file:///Users/oksanatatsyak/bootcamp/challenges/weather-dashboard/index.html)
+<img src="./assets/img/WeatherDashboard.png"/>
+WebPage: 
+file:///Users/oksanatatsyak/bootcamp/challenges/weather-dashboard/index.html
 
 

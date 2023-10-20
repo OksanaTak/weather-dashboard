@@ -8,6 +8,7 @@ card-title {
 font-size: large;
 align-self: auto;
 }
+
 .card-img-top {
     background-color: #11c6e2;
     display: block;
@@ -30,3 +31,5 @@ align-self: auto;
     display: inline-block;
     font-size: 16px;
   }
+
+               
