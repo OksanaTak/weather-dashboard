@@ -19,7 +19,7 @@ THEN I am again presented with current and future conditions for that city
 [MIT License](https://opensource.org/licenses/MIT).
 
 
-##Link
+##Links
 [URL of GitHub repository](https://github.com/OksanaTak/weather-dashboard)
 <img src="./assets/image/WeatherDashboard.png"/>
 [WebPage](https://oksanatak.github.io/weather-dashboard/)
